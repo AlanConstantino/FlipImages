@@ -1,3 +1,5 @@
+##### Note: You will need to download the Python Imaging Library (PIL) for this script to work.
+---
 # FlipImages
 Simple script to flip images of a specified path.
 

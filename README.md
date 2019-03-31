@@ -6,3 +6,12 @@ Run ```FlipImages.py```, and specify the path of the images you want flipped as 
 
 ### Example
 ```python FlipImages.py C:\Users\Alan\Desktop\FolderOfImages```
+
+### Running on MacOS/Linux
+- To run on macOS or Linux you'll have the change 2 lines of code (lines 7 and 9).
+
+#### Change the lines to the following
+
+- Change line 7 to ```originalImage = Image.open(pathOfPictures + "/" + filename)```
+
+- Change line 9 to ```saveFlippedImage = flippedImage.save(pathOfPictures + "/" + oldName[0] + "_f" + oldName[1])```
